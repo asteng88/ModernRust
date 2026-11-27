@@ -1,0 +1,21 @@
+[package]
+name = "modernrust"
+version = "0.1.0"
+edition = "2021"
+authors = ["asteng88 <asteng88@msn.com>"]
+description = "Modern Windows 11 Fluent & semantic UI component library for egui, inspired by ModernTtk."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/asteng88/ModernRust"
+documentation = "https://github.com/asteng88/ModernRust#readme"
+keywords = ["egui", "fluent", "gui", "ui", "widgets"]
+categories = ["gui", "graphics"]
+exclude = ["docs/screenshots/*"]
+build = "build.rs"
+
+[dependencies]
+egui = "0.37"
+resvg = { version = "0.45", default-features = false }
+
+[dev-dependencies]
+eframe = "0.37"
